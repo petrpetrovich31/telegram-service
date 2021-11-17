@@ -1,0 +1,27 @@
+{
+  "name": "petr-petrovich/telegram-service",
+  "description": "Package for send messages in telegram",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Petr Petrovich",
+      "email": "peter-bel13@yandex.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "PetrPetrovich\\Telegram\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "PetrPetrovich\\Telegram\\TelegramServiceProvider"
+      ]
+    }
+  },
+  "require": {
+
+  }
+}
